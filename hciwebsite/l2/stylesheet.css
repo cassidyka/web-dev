@@ -1,0 +1,127 @@
+﻿body {
+    margin:0;
+}
+
+/*removing built-in bootstrap padding*/
+.container-fluid, .row {
+    padding: 0;
+    margin: 0;
+}
+
+/*footer*/
+#footer a{
+    text-decoration: none;
+    color: darkgray;
+    
+}
+    #footer a:hover {
+        color: white;
+    }
+
+
+#footer{
+    height: 250px;
+}
+
+
+/*accordion*/
+.accordion-button:not(.collapsed) {
+    background-color: #00BBF9;
+    color: white;
+}
+
+    .accordion-button:not(.collapsed)::after {
+        filter: brightness(0%)invert(80%);
+    }
+
+
+.accordion-button:is(.collapsed)::after {
+    filter: brightness(0%)invert(90%);
+}
+
+
+/*Resources page*/
+#resource a {
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    color: #F15BB5;
+}
+
+    #resource a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+.card-img-top {
+    max-height: 240px;
+}
+
+.anchor {
+    display: block;
+    height: 90px; /*same height as header*/
+    margin-top: -90px; /*same height as header*/
+    visibility: hidden;
+}
+
+.tute-re a{
+    color: black;
+    pointer-events: auto;
+}
+    .tute-re a:hover {
+        color: white;
+    } 
+
+.tute-re{
+    pointer-events: none;
+}
+    .tute-re:hover {
+        background-color: #F15BB5;
+    }
+
+ 
+
+/*colour schemes*/
+.c1 {
+    background-color: #335C81;
+    color: white;
+}
+
+.c2, .card-body a:hover {
+    background-color: #F15BB5;
+    color: white;
+}
+
+.c3 {
+    background-color: #F8F1FF;
+    color: black;
+}
+
+.c4 {
+    background-color: #00BBF9;
+    color: white;
+}
+
+.c5 {
+    background-color: #00F5D4;
+    color: black;
+}
+
+.cg1 {
+    background-image: linear-gradient(to bottom, #335C81 65%, #002729);
+}
+
+.cg1reverse {
+    background-image: linear-gradient(to bottom, #002729, #335C81);
+    border-bottom: solid 1px #335C81;
+    border-left: none;
+    border-right: none;
+    border-top: solid 1px #002729;
+}
+
+.cg4-long {
+    background-image: repeating-linear-gradient(#002729, #00BBF9 10%, #002729 30%)
+}
+
+.cg4 {
+    background-image: linear-gradient(to bottom, #002729 5%, #00BBF9);
+}

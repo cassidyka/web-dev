@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <!-- icon image -->
+    <link rel="icon" href="images/usability-icon.svg">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!-- tab title -->
+    <title>Examples of Heuristics</title>
+</head>
+<body class="cg1reverse">
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-dark navbar-expand-lg c1 fixed-top pt-0 pb-0" id="navi-bar">
+        <div class="container-fluid">
+            <a class="navbar-brand mt-2 d-flex" href="index.html">
+                <img src="images/usability-icon.svg" width="64" height="54" class="d-inline-block align-text-top mx-2" alt="brand and icon" /><span class="pt-2">Web Dev</span>
+            </a>
+
+            <button class="navbar-toggler my-1 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link mt-1" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link nav-active mt-1" href="example.html">Examples</a>
+                    </li>
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link mt-1" href="resource.html">Resources</a>
+                    </li>
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link mt-1" href="tutorial.html">Tutorials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Examples content -->
+    <section id="examples">
+        <div class="container-fluid text-light cg1 pt-5">
+            <div class="row titles">
+                <div class="col-12 col-md-6 py-5 aboutH">
+                    <h1 class="display-2" style="border-bottom: solid 3px #F15BB5;">Examples</h1>
+                </div>
+                <div class="col-12 col-md-5 aboutP fs-5">
+                    <p>In the accordion below, there are examples of the usability heuristics. Click on the heading of the accordion to open the small image and description of the heuristic.</p>
+                    <p>These examples are very simplified, but are all examples of very easily used usability heuristics that you will most likely use when you go to develop your own website. This knowledge is very important, particularly for the "Usability" relevant implication and your ability to discuss how you are addressing this.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- accordion -->
+        <div class="container-fluid cg1reverse">
+            <div class="accordion m-5" id="accordionExample">
+                <div class="accordion-item c3 my-2 border-0">
+                    <h2 class="accordion-header sticky-top" id="headingOne">
+                        <button class="accordion-button collapsed c4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Visibility of System Status
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-12 col-lg-6 mb-2">
+                                    The following examples of visibility of system status show some of the very subtle but effective uses of this heuristic. It is important to make sure that your users understand where they are within your website as much as possible. We can see in the nav bar that the current page is displayed with a coloured underline. We can also see that in there is a hover effect when the user is hovering over the nav bar link too. This allows them to more easily and efficiently use your website.
+                                </div>
+                                <div class="col-12 col-lg-6 text-center">
+                                    <img src="images/examples/vs-example.png" alt="active link shown in nav-bar on examples page" class="img-fluid mb-2" />
+                                    <img src="images/examples/cs-vs-nav-h.png" alt="active link shown in nav-bar on home page" class="img-fluid mb-2" />
+                                    <img src="images/examples/vs-nav-big.png" alt="active link shown in nav-bar on home page but a bigger image" class="img-fluid mb-2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item c3 my-2 border-0">
+                    <h2 class="accordion-header sticky-top" id="headingTwo">
+                        <button class="accordion-button collapsed c4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Consistency and standards
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row border-bottom border-dark pb-2 mb-3">
+                                <div class="col-12 col-lg-6 mb-2">
+                                    Consistency is one of the easiest heuristics to use and identify. The examples here show consistency across the design of different pages. In the example here we some the use on internal consistency where the different pages are sharing many of the same designs and outlines. We also see consistency of colour too.<br /><br />
+                                    Scoll on the images to see further
+                                </div>
+                                <div class="col-12 col-lg-6 text-center ex-img">
+                                    <img src="images/examples/cs-examples.png" alt="active link shown in nav-bar on examples page" class="img-fluid mb-2" />
+                                    <img src="images/examples/cs-resources.png" alt="active link shown in nav-bar on home page" class="img-fluid mb-2" />
+                                    <img src="images/examples/ma-about.png" alt="active link shown in nav-bar on home page but a bigger image" class="img-fluid mb-2" />
+                                </div>
+                            </div>
+                            <div class="row border-bottom border-dark pb-2 mb-3">
+                                <div class="col-12 col-lg-6 text-center order-2 order-lg-1">
+                                    <img src="images/examples/cs-nav-r.png" alt="consisntency of the nav bar" class="img-fluid mb-2" />
+                                    <img src="images/examples/cs-vs-nav-h.png" alt="consisntency of the nav bar on the home page" class="img-fluid mb-2" />
+                                </div>
+                                <div class="col-12 col-lg-6 mb-2 order-1 order-lg-2">
+                                    Here is another example where you can say that there is some external consistency as well as some internal consistency. The external consistency here is that the nav bar is at the top of the page and so users know that this is usually where the nav bar should be. The internal consistency here is that across all pages, the design and layout of the nav bar doesn't change throughout the rest of the website.
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-12 col-lg-6 mb-2">
+                                    Another example of some internal consistency is between the content of the cards and the different sections of cards that are using similar designs, and layout. The same sections are using the same designs and the two different sections have very similar designs but are also the same as each other showing some great, simplistic use of consistency.<br /><br />
+                                    Scoll on the images to see further
+                                </div>
+                                <div class="col-12 col-lg-6 text-center ex-img">
+                                    <img src="images/examples/cs-uh-resources.png" alt="consisntency of the resource cards" class="img-fluid mb-2" />
+                                    <img src="images/examples/cs-wd-resources.png" alt="consisntency of the cards from different sections" class="img-fluid mb-2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item c3 my-2 border-0">
+                    <h2 class="accordion-header sticky-top" id="headingThree">
+                        <button class="accordion-button collapsed c4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Minimalist Aesthetic
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-12 col-lg-6 mb-2">
+                                    Although an easy heuristic to identify, being able to create an aesthetic that doesn't just tick the boxes of design principles but comes together as a whole. In the following examples we see the use of a minimalist aesthetic. Content and information is clear. The use of colour and contrast is appropriate and there is just enough ant not too much going on in the page. The images used are also simple and not too over the top. The consistency in the types of images also adds to the aesthetic.<br /><br />
+                                    Scoll on the images to see further
+                                </div>
+                                <div class="col-12 col-lg-6 text-center ex-img">
+                                    <img src="images/examples/ma-banner.png" alt="aesthetic of the banner" class="img-fluid mb-2" />
+                                    <img src="images/examples/ma-about.png" alt="aesthetic of the about page" class="img-fluid mb-2" />
+                                    <img src="images/examples/ma-examples.png" alt="aesthetic of the examples page" class="img-fluid mb-2" />
+                                    <img src="images/examples/ma-uh-resources.png" alt="aesthetic of the resources page" class="img-fluid mb-2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="container-fluid bg-dark">
+            <div class="footer bg-dark text-light text-center py-5">
+                <h2 class="display-5">Usability Heuristics</h2>
+                <p>Website designed, developed and created by Mr. Cassidy</p>
+                <p>
+                    Illustrations from <a href="https://undraw.co/">unDraw</a>
+                    <br />Infomation resourced from <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">NNGroup</a>
+                    <br />Development resources from <a href="https://getbootstrap.com/">Bootstrap</a>
+                </p>
+            </div>
+            <div class="update">
+                <i>Last updated: 14/02/2023</i>
+            </div>
+        </div>
+    </section>
+
+
+    <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+
+    <script>/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar*/
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+
+            var currentScrollPos = window.pageYOffset;
+
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navi-bar").style.top = "0";
+            } else {
+                document.getElementById("navi-bar").style.top = "-60px";
+            }
+            prevScrollpos = currentScrollPos;
+
+        }</script>
+
+
+</body>
+</html >

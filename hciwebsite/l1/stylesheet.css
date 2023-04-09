@@ -1,0 +1,264 @@
+﻿body {
+    margin: 0;
+}
+
+.tute-re {
+    height: 25px;
+    width: 100%;
+    font-size: 18px;
+    padding: 2px 15px;
+}
+
+.tute-re a {
+    color: black;
+    pointer-events: auto;
+    text-decoration: none;
+}
+
+.tute-re a:hover {
+    color: white;
+}
+
+.tute-re {
+    pointer-events: none;
+}
+
+    .tute-re:hover {
+        background-color: #F15BB5;
+    }
+
+/*nav bar*/
+.navbar{
+    margin:0;
+    padding: 0;
+    height: 60px;
+
+}
+
+.nav-item {
+    margin: 0;
+    padding: 18px 15px;
+    list-style-type: none;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    width: 80px;
+    color: lightgrey;
+    font-size: 18px;
+}
+
+    .nav-item:hover {
+        color: white;
+    }
+
+.active{
+    color: white;
+}
+
+.nav-brand {
+    margin: 0;
+    padding: 5px 8px 0 8px;
+    list-style-type: none;
+    float: left;
+    text-decoration: none;
+    width: 130px;
+    color: white;
+    font-size: 20px;
+}
+
+    .nav-brand img {
+        padding: 5px 10px 0 0;
+    }
+
+    .nav-brand p {
+        float: right;
+        margin-top: 10px;
+    }
+
+
+/*height inheriting*/
+.banner, .heading, .example {
+    height: inherit;
+    padding: 0 45px;
+}
+
+.grid-container, .grid-container-card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+    .grid-container, .grid-container-card > div {
+        text-align: center;
+        padding: 20px;
+    }
+
+        .grid-container h1 {
+            font-size: 5.2vw;
+            padding: 20px;
+        }
+
+        .grid-container p {
+            font-size: 20px;
+            padding: 15px 35px;
+            text-align: left;
+        }
+
+        .grid-container img {
+            margin: 10px 0;
+            padding: 0 10px;
+        }
+
+        .grid-container span a {
+            color: #F15BB5;
+            text-decoration: none;
+        }
+            .grid-container span a:hover {
+                color: white;
+            }
+
+
+/*heading*/
+.heading h1, .heuristics h2 {
+    text-align: end;
+    border-bottom: solid 3px #F15BB5;
+
+}
+
+.example .grid-container h1{
+    font-size: 30px;
+}
+
+.example {
+    padding: 30px 50px;
+}
+
+
+/*resources page*/
+.grid-container-card {
+    grid-template-rows: 400px;
+    background-color: white;
+}
+
+.gc-text-right{
+    text-align: end !important;
+}
+
+.gc-text-left {
+    text-align: start !important;
+}
+
+.grid-container-card img {
+    width: 50%;
+    min-width: 300px;
+}
+
+.btn {
+    list-style-type: none;
+    margin: 20px 25% 15px 25%;
+    text-align: center;
+    width: 50%;
+    border-radius: 2px;
+}
+    .btn a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+        .btn a:hover {
+            background-color: #F15BB5;
+            color: white;
+        }
+
+.heuristics{
+    padding: 0px 50px;
+}
+
+.heuristics h5{
+    font-size: 25px;
+}
+
+.heuristics h2{
+    font-size: 35px;
+}
+
+.big-img {
+    min-width: 500px;
+    padding: 10px 0;
+}
+
+.cols {
+    column-count: 3;
+    column-width: 150px;
+    padding: 0;
+    width: 95%;
+}
+
+    .cols .btn {
+        width: 100%;
+        margin: 10px 0;
+        display: inline-block;
+        height: 50px;
+    }
+
+.anchor {
+    display: block;
+    height: 90px; /*same height as header*/
+    margin-top: -90px; /*same height as header*/
+    visibility: hidden;
+}
+
+
+
+/*footer*/
+.footer a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+    .footer a:hover {
+        color: white;
+    }
+
+
+.footer {
+    height: 190px;
+    text-align: center;
+    color: white;
+    background-color: rgba(50, 50, 50, 1);
+    padding-top: 40px;
+}
+
+.footer h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+
+/*colour schemes*/
+.c1 {
+    background-color: #335C81;
+    color: white;
+}
+
+.c2 {
+    background-color: #F15BB5;
+    color: white;
+}
+
+.c3 {
+    background-color: #F8F1FF;
+    color: black;
+}
+
+.c4 {
+    background-color: #00BBF9;
+    color: white;
+}
+
+.c5 {
+    background-color: #00F5D4;
+    color: black;
+}

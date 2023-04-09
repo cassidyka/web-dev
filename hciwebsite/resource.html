@@ -1,0 +1,568 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <!-- icon image background-color: #F8F1FF;-->
+    <link rel="icon" href="images/usability-icon.svg">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!-- tab title -->
+    <title>Resources for Web Dev</title>
+</head>
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-dark navbar-expand-lg c1 sticky-top pt-0 pb-0" id="navi-bar">
+        <div class="container-fluid">
+            <a class="navbar-brand mt-2 d-flex" href="index.html">
+                <img src="images/usability-icon.svg" width="64" height="54" class="d-inline-block align-text-top mx-2" alt="brand and icon" /><span class="pt-2">Web Dev</span>
+            </a>
+
+            <button class="navbar-toggler my-1 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link mt-1" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link mt-1" href="example.html">Examples</a>
+                    </li>
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link nav-active mt-1" href="resource.html">Resources</a>
+                    </li>
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link mt-1" href="tutorial.html">Tutorials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- resources content -->
+    <section id="resources">
+        <div class="container-fluid text-light cg1 pt-5">
+            <div class="row titles">
+                <div class="col-12 col-md-6 py-5 aboutH">
+                    <h1 class="display-2" style="border-bottom: solid 3px #F15BB5;">Resources</h1>
+                </div>
+                <div class="col-12 col-md-5 aboutP fs-5">
+                    <p>In the section below, there are brief discriptions about the Usability Heuristics as well as links to further articles about each one. Some have multiple links to different articles of helpful information about the different heuristics. </p>
+                    <p>
+                        Below the information about the heuristics are some useful links for the Bootstrap and web dev topics too.<br />
+                        <span><a href="#web-dev">Let me see!</a></span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- cards -->
+    <section id="resource-cards">
+        <div class="container-fluid">
+
+            <!-- usability heuristics cards -->
+            <div class="col-12 col-md-6 py-5 aboutH">
+                <h1 class="display-4 text-light" style="border-bottom: solid 3px #F15BB5;">Usability Heuristics</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-4 px-5 mb-3">
+                    <span class="anchor" id="vs-card"></span>
+                    <div class="card c3 h-100 text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs nav-fill card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-dark" style="border-radius: 0;" id="vsdescription-tab" data-bs-toggle="tab" data-bs-target="#vsdescription-tab-pane" type="button" role="tab" aria-controls="vsdescription-tab-pane" aria-selected="true">Description</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-dark" style="border-radius: 0;" id="vsresource-tab" data-bs-toggle="tab" data-bs-target="#vsresource-tab-pane" type="button" role="tab" aria-controls="vsresource-tab-pane" aria-selected="false">Resources</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="vsdescription-tab-pane" role="tabpanel" aria-labelledby="vsdescription-tab" tabindex="0">
+                                <img src="images/visibility.svg" class="pt-2 px-2 card-img-top" alt="visibility of system status" />
+                                <div class="card-body text-center d-flex flex-column">
+                                    <div class="w-100 mb-3 px-1">
+                                        <h5 class="card-title text-start">#1 Visibility of System Status</h5>
+                                        <p class="card-text text-start">As a designer you need to make sure that the user knows what is going on with the system at the current time and the user should be given some form of appropriate feedback that allows them to understand the current status of the system.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="vsresource-tab-pane" role="tabpanel" aria-labelledby="vsresource-tab" tabindex="0">
+                                <div class="card-body text-start">
+                                    <div class="w-100 mb-3 px-1">
+                                        <p class="card-text">Click on the resources below for more information</p>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href="https://www.nngroup.com/articles/visibility-system-status/" class="rounded-1 border-0 list-group-item mb-2 c5 ">Article from the NN group</a>
+                                        <a href="https://uxplanet.org/1-visibility-of-system-status-simplified-by-the-examples-1cca76f59b6a" class="rounded-1 border-0 list-group-item mb-2 c5">Article from Medium - Harsh Gorasia</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 px-5 mb-3">
+                    <span class="anchor" id="ms-card"></span>
+                    <div class="card c3 h-100 text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs nav-fill card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-dark" style="border-radius: 0;" id="msdescription-tab" data-bs-toggle="tab" data-bs-target="#msdescription-tab-pane" type="button" role="tab" aria-controls="msdescription-tab-pane" aria-selected="true">Description</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-dark" style="border-radius: 0;" id="msresource-tab" data-bs-toggle="tab" data-bs-target="#msresource-tab-pane" type="button" role="tab" aria-controls="msresource-tab-pane" aria-selected="false">Resources</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="msdescription-tab-pane" role="tabpanel" aria-labelledby="msdescription-tab" tabindex="0">
+                                <img src="images/match.svg" class="pt-2 px-2 card-img-top" alt="Match system and the real-world" />
+                                <div class="card-body text-center d-flex flex-column">
+                                    <div class="w-100 mb-3 px-1">
+                                        <h5 class="card-title text-start">#2 Match Between the System and the Real-World</h5>
+                                        <p class="card-text text-start">The system's design should be sure to speak the same language as its users. Users should see familiar phrases, icons, images to that of the real-world. This allows a natural, logical and familiar understanding to the aspects of your design for whoever is using it.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="msresource-tab-pane" role="tabpanel" aria-labelledby="msresource-tab" tabindex="0">
+                                <div class="card-body text-start">
+                                    <div class="w-100 mb-3 px-1">
+                                        <p class="card-text">Click on the resources below for more information</p>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href="https://www.nngroup.com/articles/match-system-real-world/" class="rounded-1 border-0 list-group-item mb-2 c5 ">Article from the NN group</a>
+                                        <a href="https://medium.com/ux-planet/heuristics-2-match-between-the-system-and-the-real-world-simplified-by-the-examples-754b62bdd552" class="rounded-1 border-0 list-group-item mb-2 c5">Article from Medium - Harsh Gorasia</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-4 px-5 mb-3">
+                    <span class="anchor" id="uc-card"></span>
+                    <div class="card c3 h-100 text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs nav-fill card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-dark" style="border-radius: 0;" id="ucdescription-tab" data-bs-toggle="tab" data-bs-target="#ucdescription-tab-pane" type="button" role="tab" aria-controls="ucdescription-tab-pane" aria-selected="true">Description</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-dark" style="border-radius: 0;" id="ucresource-tab" data-bs-toggle="tab" data-bs-target="#ucresource-tab-pane" type="button" role="tab" aria-controls="ucresource-tab-pane" aria-selected="false">Resources</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="ucdescription-tab-pane" role="tabpanel" aria-labelledby="ucdescription-tab" tabindex="0">
+                                <img src="images/user-control.svg" class="pt-2 px-2 card-img-top" alt="User control and freedom" />
+                                <div class="card-body text-center d-flex flex-column">
+                                    <div class="w-100 mb-3 px-1">
+                                        <h5 class="card-title text-start">#3 User Control and Freedom</h5>
+                                        <p class="card-text text-start">Sometimes users up somewhere they shouldn't, or don't want to be. Your design needs to give users the feeling of control and that they have the ability to navigate the design at their own will such as fixing mistakes, correcting choices and finding a simple way to return to where they previous were.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="ucresource-tab-pane" role="tabpanel" aria-labelledby="ucresource-tab" tabindex="0">
+                                <div class="card-body text-start">
+                                    <div class="w-100 mb-3 px-1">
+                                        <p class="card-text">Click on the resources below for more information</p>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href="https://www.nngroup.com/articles/user-control-and-freedom/" class="rounded-1 border-0 list-group-item mb-2 c5 ">Article from the NN group</a>
+                                        <a href="https://uxplanet.org/heuristics-3-user-control-freedom-simplified-by-the-examples-aff544b581f0" class="rounded-1 border-0 list-group-item mb-2 c5">Article from Medium - Harsh Gorasia</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 px-5 mb-3">
+                    <span class="anchor" id="cs-card"></span>
+                    <div class="card c3 h-100 text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs nav-fill card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-dark" style="border-radius: 0;" id="csdescription-tab" data-bs-toggle="tab" data-bs-target="#csdescription-tab-pane" type="button" role="tab" aria-controls="csdescription-tab-pane" aria-selected="true">Description</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-dark" style="border-radius: 0;" id="csresource-tab" data-bs-toggle="tab" data-bs-target="#csresource-tab-pane" type="button" role="tab" aria-controls="csresource-tab-pane" aria-selected="false">Resources</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="csdescription-tab-pane" role="tabpanel" aria-labelledby="csdescription-tab" tabindex="0">
+                                <img src="images/consistency.svg" class="pt-2 px-2 card-img-top" alt="Consistency and standards" />
+                                <div class="card-body text-center d-flex flex-column">
+                                    <div class="w-100 mb-3 px-1">
+                                        <h5 class="card-title text-start">#4 Consistency and Standards</h5>
+                                        <p class="card-text text-start">Consistency provides users with the familiarity, patterns and logic for the user. It is about adhering to the conventions of your design and making sure that your design is consistent in itself as well as aligning itself with all other designs that are similar to yours. Both internal and external consistency contribute to learnability and usability of your designs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="csresource-tab-pane" role="tabpanel" aria-labelledby="csresource-tab" tabindex="0">
+                                <div class="card-body text-start">
+                                    <div class="w-100 mb-3 px-1">
+                                        <p class="card-text">Click on the resources below for more information</p>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href="https://www.nngroup.com/articles/consistency-and-standards/" class="rounded-1 border-0 list-group-item mb-2 c5 ">Article from the NN group</a>
+                                        <a href="https://uxplanet.org/heuristics-4-consistency-and-standards-simplified-by-the-examples-55bf770065b9" class="rounded-1 border-0 list-group-item mb-2 c5">Article from Medium - Harsh Gorasia</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-4 px-5 mb-3">
+                    <span class="anchor" id="ep-card"></span>
+                    <div class="card c3 h-100 text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs nav-fill card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-dark" style="border-radius: 0;" id="epdescription-tab" data-bs-toggle="tab" data-bs-target="#epdescription-tab-pane" type="button" role="tab" aria-controls="epdescription-tab-pane" aria-selected="true">Description</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-dark" style="border-radius: 0;" id="epresource-tab" data-bs-toggle="tab" data-bs-target="#epresource-tab-pane" type="button" role="tab" aria-controls="epresource-tab-pane" aria-selected="false">Resources</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="epdescription-tab-pane" role="tabpanel" aria-labelledby="epdescription-tab" tabindex="0">
+                                <img src="images/prevention.svg" class="pt-2 px-2 card-img-top" alt="Error prevention" />
+                                <div class="card-body text-center d-flex flex-column">
+                                    <div class="w-100 mb-3 px-1">
+                                        <h5 class="card-title text-start">#5 Error Prevention</h5>
+                                        <p class="card-text text-start">Error prevention is about all the safety nets, notices, and <strong>pre-emptive</strong> warnings that a user is given in order to steer them into the right direction for how to use or do whatever it is they need to do. Error prevention are all the things that occur before an error can be made and everything that is put in place to avoid errors before they start.<br />Be careful to not confuse this for error recovery which only applies <strong>after</strong> a mistake has been make.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="epresource-tab-pane" role="tabpanel" aria-labelledby="epresource-tab" tabindex="0">
+                                <div class="card-body text-start">
+                                    <div class="w-100 mb-3 px-1">
+                                        <p class="card-text">Click on the resources below for more information</p>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href="https://www.nngroup.com/articles/slips/" class="rounded-1 border-0 list-group-item mb-2 c5 ">Article from the NN group</a>
+                                        <a href="https://uxplanet.org/heuristics-5-error-prevention-simplified-by-the-examples-67674daa2860" class="rounded-1 border-0 list-group-item mb-2 c5">Article from Medium - Harsh Gorasia</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 px-5 mb-3">
+                    <span class="anchor" id="rr-card"></span>
+                    <div class="card c3 h-100 text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs nav-fill card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-dark" style="border-radius: 0;" id="rrdescription-tab" data-bs-toggle="tab" data-bs-target="#rrdescription-tab-pane" type="button" role="tab" aria-controls="rrdescription-tab-pane" aria-selected="true">Description</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-dark" style="border-radius: 0;" id="rrresource-tab" data-bs-toggle="tab" data-bs-target="#rrresource-tab-pane" type="button" role="tab" aria-controls="rrresource-tab-pane" aria-selected="false">Resources</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="rrdescription-tab-pane" role="tabpanel" aria-labelledby="rrdescription-tab" tabindex="0">
+                                <img src="images/recall.svg" class="pt-2 px-2 card-img-top" alt="Recognition rather than recall" />
+                                <div class="card-body text-center d-flex flex-column">
+                                    <div class="w-100 mb-3 px-1">
+                                        <h5 class="card-title text-start">#6 Recognition rather than Recall</h5>
+                                        <p class="card-text text-start">
+                                            Users show be able to regocnise aspects of your design, rather than having to recall them from scratch. These aspects should be visible and easily accessible, and allow the user to be able to track their previous uses, understand actions they need to take recognise how to navigate their way through your design.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="rrresource-tab-pane" role="tabpanel" aria-labelledby="rrresource-tab" tabindex="0">
+                                <div class="card-body text-start">
+                                    <div class="w-100 mb-3 px-1">
+                                        <p class="card-text">Click on the resources below for more information</p>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href="https://www.nngroup.com/articles/recognition-and-recall/" class="rounded-1 border-0 list-group-item mb-2 c5 ">Article from the NN group</a>
+                                        <a href="https://uxplanet.org/heuristics-6-recognition-rather-than-recall-simplified-by-the-examples-eb8b84fb04c6" class="rounded-1 border-0 list-group-item mb-2 c5">Article from Medium - Harsh Gorasia</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-4 px-5 mb-3">
+                    <span class="anchor" id="fx-card"></span>
+                    <div class="card c3 h-100 text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs nav-fill card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-dark" style="border-radius: 0;" id="fxdescription-tab" data-bs-toggle="tab" data-bs-target="#fxdescription-tab-pane" type="button" role="tab" aria-controls="fxdescription-tab-pane" aria-selected="true">Description</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-dark" style="border-radius: 0;" id="fxresource-tab" data-bs-toggle="tab" data-bs-target="#fxresource-tab-pane" type="button" role="tab" aria-controls="fxresource-tab-pane" aria-selected="false">Resources</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="fxdescription-tab-pane" role="tabpanel" aria-labelledby="fxdescription-tab" tabindex="0">
+                                <img src="images/flexibility.svg" class="pt-2 px-2 card-img-top" alt="Flexibility and efficiency of use" />
+                                <div class="card-body text-center d-flex flex-column">
+                                    <div class="w-100 mb-3 px-1">
+                                        <h5 class="card-title text-start">#7 Flexibility and Efficiency of Use</h5>
+                                        <p class="card-text text-start">
+                                            Catering to your more experienced and informed users is an important way of using your design. your design should be able to cater for the novice user and the experienced user. Catering to the experienced user is about shortcuts that may be unseen to the novice user, allowing users to take multiple approaches to the same task. These users need to be able to take advantage of accelerators or secondary features that allow them to use your design more efficiently and quickly.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="fxresource-tab-pane" role="tabpanel" aria-labelledby="fxresource-tab" tabindex="0">
+                                <div class="card-body text-start">
+                                    <div class="w-100 mb-3 px-1">
+                                        <p class="card-text">Click on the resources below for more information</p>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href="https://www.nngroup.com/articles/flexibility-efficiency-heuristic/" class="rounded-1 border-0 list-group-item mb-2 c5 ">Article from the NN group</a>
+                                        <a href="https://uxplanet.org/heuristics-7-flexibility-and-efficiency-of-use-simplified-by-the-examples-f2d76966e8a5" class="rounded-1 border-0 list-group-item mb-2 c5">Article from Medium - Harsh Gorasia</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 px-5 mb-3">
+                    <span class="anchor" id="am-card"></span>
+                    <div class="card c3 h-100 text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs nav-fill card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-dark" style="border-radius: 0;" id="amdescription-tab" data-bs-toggle="tab" data-bs-target="#amdescription-tab-pane" type="button" role="tab" aria-controls="amdescription-tab-pane" aria-selected="true">Description</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-dark" style="border-radius: 0;" id="amresource-tab" data-bs-toggle="tab" data-bs-target="#amresource-tab-pane" type="button" role="tab" aria-controls="fxresource-tab-pane" aria-selected="false">Resources</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="amdescription-tab-pane" role="tabpanel" aria-labelledby="amdescription-tab" tabindex="0">
+                                <img src="images/aesthetic.svg" class="pt-2 px-2 card-img-top" alt="Aesthetic and Minimalist Design" />
+                                <div class="card-body text-center d-flex flex-column">
+                                    <div class="w-100 mb-3 px-1">
+                                        <h5 class="card-title text-start">#8 Aesthetic and Minimalist Design</h5>
+                                        <p class="card-text text-start">
+                                            Visually appealing designs are basically the entire point of a design. But what can you do to create an aesthetic regardless of your creative ability? Clutter, too much in one spot creates a bad aesthetic, but minimising the things on your design, and focussing on what is important and how to make the few select elements be aesthetic is key. Using design principles such as C.R.A.P. is a great place to start in terms of creating an aesthetic. It is a combination of how all the elements of your design fit together and complement each other from colour, to sizing, shapes and placement, they must all work together.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="amresource-tab-pane" role="tabpanel" aria-labelledby="amresource-tab" tabindex="0">
+                                <div class="card-body text-start">
+                                    <div class="w-100 mb-3 px-1">
+                                        <p class="card-text">Click on the resources below for more information</p>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href="https://www.nngroup.com/articles/aesthetic-minimalist-design/" class="rounded-1 border-0 list-group-item mb-2 c5 ">Article from the NN group</a>
+                                        <a href="https://uxplanet.org/heuristics-8-aesthetic-and-minimalist-design-simplified-by-the-examples-42f904b8e0c0" class="rounded-1 border-0 list-group-item mb-2 c5">Article from Medium - Harsh Gorasia</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-4 px-5 mb-3">
+                    <span class="anchor" id="er-card"></span>
+                    <div class="card c3 h-100 text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs nav-fill card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-dark" style="border-radius: 0;" id="erdescription-tab" data-bs-toggle="tab" data-bs-target="#erdescription-tab-pane" type="button" role="tab" aria-controls="erdescription-tab-pane" aria-selected="true">Description</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-dark" style="border-radius: 0;" id="erresource-tab" data-bs-toggle="tab" data-bs-target="#erresource-tab-pane" type="button" role="tab" aria-controls="erresource-tab-pane" aria-selected="false">Resources</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="erdescription-tab-pane" role="tabpanel" aria-labelledby="erdescription-tab" tabindex="0">
+                                <img src="images/recovery.svg" class="pt-2 px-2 card-img-top" alt="Help users recognize, diagnose, and recover from errors" />
+                                <div class="card-body text-center d-flex flex-column">
+                                    <div class="w-100 mb-3 px-1">
+                                        <h5 class="card-title text-start">#9 Error Recovery</h5>
+                                        <p class="card-text text-start">
+                                            Using will always make a mistake, no matter how much you try to steer them in the right direction, so you need to make sure that you have processes for helping users understand that not only have they made a mistake, but how they should try and fix that mistake the next time. There needs to be clear indication of what has happened, why and what to do next. This heuristic is only applicable <strong>after</strong> a mistake has occurred, not <strong>before</strong>. Remember the difference between a recovery and reactive element as opposed to a preventative one!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="erresource-tab-pane" role="tabpanel" aria-labelledby="erresource-tab" tabindex="0">
+                                <div class="card-body text-start">
+                                    <div class="w-100 mb-3 px-1">
+                                        <p class="card-text">Click on the resources below for more information</p>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href="https://www.nngroup.com/articles/error-message-guidelines/" class="rounded-1 border-0 list-group-item mb-2 c5 ">Article from the NN group</a>
+                                        <a href="https://uxplanet.org/heuristics-9-help-users-recognize-diagnose-recover-from-errors-simplified-by-the-examples-8f746aaabeec" class="rounded-1 border-0  list-group-item mb-2 c5">Article from Medium - Harsh Gorasia</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 px-5 mb-3">
+                    <span class="anchor" id="hd-card"></span>
+                    <div class="card c3 h-100 text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs nav-fill card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active text-dark" style="border-radius: 0;" id="hddescription-tab" data-bs-toggle="tab" data-bs-target="#hddescription-tab-pane" type="button" role="tab" aria-controls="hddescription-tab-pane" aria-selected="true">Description</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link text-dark" style="border-radius: 0;" id="hdresource-tab" data-bs-toggle="tab" data-bs-target="#hdresource-tab-pane" type="button" role="tab" aria-controls="hdresource-tab-pane" aria-selected="false">Resources</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="hddescription-tab-pane" role="tabpanel" aria-labelledby="hddescription-tab" tabindex="0">
+                                <img src="images/help.svg" class="pt-2 px-2 card-img-top" alt="Help and Documentation" />
+                                <div class="card-body text-center d-flex flex-column">
+                                    <div class="w-100 mb-3 px-1">
+                                        <h5 class="card-title text-start">#10 Help and Documentation</h5>
+                                        <p class="card-text text-start">
+                                            Every design should be able to help users get familiar with the interface and well as provide help for troubleshooting any issues the user might run into. It is helpful to provide the user with some form of documentation that allows users to find specific information to fix a problem the user might have. It is also to provide users with help at the beginning to teach them how to interact with your design.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="hdresource-tab-pane" role="tabpanel" aria-labelledby="hdresource-tab" tabindex="0">
+                                <div class="card-body text-start">
+                                    <div class="w-100 mb-3 px-1">
+                                        <p class="card-text">Click on the resources below for more information</p>
+                                    </div>
+                                    <div class="list-group">
+                                        <a href="https://www.nngroup.com/articles/help-and-documentation/" class="rounded-1 border-0 list-group-item mb-2 c5 ">Article from the NN group</a>
+                                        <a href="https://uxplanet.org/heuristics-10-help-and-documentation-simplified-by-the-examples-481fa9b856d5" class="rounded-1 border-0 list-group-item mb-2 c5">Article from Medium - Harsh Gorasia</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- bootstrap and web dev cards -->
+            <div class="container-fluid cg1reverse">
+                <div class="row">
+                    <div class="col-12 col-md-6 aboutH py-5">
+                        <span class="anchor" id="web-dev"></span>
+                        <h1 class="display-4 text-light" style="border-bottom: solid 3px #F15BB5;">Web Development Resources</h1>
+
+                    </div>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-sm-6 px-5 mb-3">
+                        <div class="card c3 h-100">
+                            <img src="images/bootstrap.svg" class="pt-2 px-2 card-img-top" alt="Person programming" />
+                            <div class="card-body text-center d-flex flex-column">
+                                <div class="w-100 mb-3 px-1">
+                                    <h5 class="card-title text-start">Bootstrap</h5>
+                                    <p class="card-text text-start">
+                                        Bootstrap is a free, third-party HTML, CSS and JS library that is built for easy-to-use responsive website development. When using Bootstrap make sure to link the appropriate versions of CSS and JS so that all of the built-in features and animations work. Alternatively, You can download the Bootstrap library and the SASS files to more directly access and edit the library and CSS classes.
+                                    </p>
+                                </div>
+                                <div class="mt-auto mb-2">
+                                    <p class="text-start"><strong>The link below takes you to the Bootstrap website that contains the CDN and the documentation for its library.</strong></p>
+
+
+                                    <a href="https://getbootstrap.com/" class="btn c5 w-100 mt-auto">Bootstrap Official Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 px-5 mb-3">
+                        <div class="card c3 h-100">
+                            <img src="images/webdev.svg" class="pt-2 px-2 card-img-top" alt="Website design and development" />
+                            <div class="card-body text-center d-flex flex-column">
+                                <div class="w-100 mb-3 px-1">
+                                    <h5 class="card-title text-start">Web Development Resources</h5>
+                                    <p class="card-text text-start">
+                                        Here are some useful links to resources that may help you with your web development:
+                                    </p>
+                                </div>
+                                <div class="list-group">
+                                    <a href="https://coolors.co/" class="rounded-1 border-0 list-group-item mb-2 c5 ">Coolors - Colour pallete generator</a>
+                                    <a href="https://cloudcannon.com/" class="rounded-1 border-0 list-group-item mb-2 c5">Cloudcannon - Free web-hosting site</a>
+                                    <a href="https://www.w3schools.com/" class="rounded-1 border-0 list-group-item mb-2 c5">W3Schools - Coding resources</a>
+                                    <a href="https://jigsaw.w3.org/css-validator/" class="rounded-1 border-0 list-group-item mb-2 c5">CSS code validator</a>
+                                    <a href="https://validator.w3.org/" class="rounded-1 border-0 list-group-item mb-2 c5">HTML Validator</a>
+                                    <a href="https://undraw.co/" class="rounded-1 border-0 list-group-item mb-2 c5">unDraw - open-source illustrations</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="container-fluid bg-dark">
+            <div class="footer bg-dark text-light text-center py-5">
+                <h2 class="display-5">Usability Heuristics</h2>
+                <p>Website designed, developed and created by Mr. Cassidy</p>
+                <p>
+                    Illustrations from <a href="https://undraw.co/">unDraw</a>
+                    <br />Infomation resourced from <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">NNGroup</a>
+                    <br />Development resources from <a href="https://getbootstrap.com/">Bootstrap</a>
+                </p>
+            </div>
+            <div class="update">
+                <i>Last updated: 14/02/2023</i>
+            </div>
+        </div>
+    </section>
+
+
+    <script>/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar*/
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+
+            var currentScrollPos = window.pageYOffset;
+
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navi-bar").style.top = "0";
+            } else {
+                document.getElementById("navi-bar").style.top = "-60px";
+            }
+            prevScrollpos = currentScrollPos;
+
+        }</script>
+
+</body>
+</html>

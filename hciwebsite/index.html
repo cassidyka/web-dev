@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <!-- icon image -->
+    <link rel="icon" href="images/usability-icon.svg">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!-- tab title -->
+    <title>Usability Heuristics</title>
+</head>
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-dark navbar-expand-lg c1 sticky-top pt-0 pb-0" id="navi-bar">
+        <div class="container-fluid">
+            <a class="navbar-brand mt-2 d-flex" href="index.html">
+                <img src="images/usability-icon.svg" width="64" height="54" class="d-inline-block align-text-top mx-2" alt="brand and icon" /><span class="pt-2">Web Dev</span>
+            </a>
+
+            <button class="navbar-toggler my-1 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link nav-active mt-1" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link mt-1" href="example.html">Examples</a>
+                    </li>
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link mt-1" href="resource.html">Resources</a>
+                    </li>
+                    <li class="nav-item w-100 px-auto">
+                        <a class="nav-link mt-1" href="tutorial.html">Tutorials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- banner -->
+    <section id="banner">
+        <div class="container-fluid cg1">
+            <div class="row">
+                <div class="col-12 col-md-6 order-2 order-md-1 text-center p-4">
+                    <img src="images/banner1.svg" alt="banner image" class="img-fluid banner" />
+
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-2 text-light s-hide">
+                    <div class="p-2 mt-3 head-text">
+                        <h1 class="display-1">Usability Heuristics</h1>
+                        <p>Welcome to an online resource for your Usability Heuristics <br />as well as Web development and Bootstrap needs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about us -->
+    <section id="about" class="reveal">
+        <div class="container-fluid mt-5 text-light">
+            <div class="row">
+                <div class="col-12 col-md-6 py-5 aboutH5">
+                    <h1 class="display-2" style="border-bottom: solid 3px #F15BB5;">About</h1>
+                </div>
+                <div class="col-12 col-md-5 aboutP5 fs-5">
+                    <p>This website was designed and developed as a learning tool for students to study Neilson's 10 usability heuristics. The website itself is used as a template for web development and understanding the usability heuristics.</p>
+                    <p>You will use this website as the basis for understanding how to develop a website. Once the website has been completed you will also be able to use it as a resource base for the Usability Heuristics and making sure that you understand exactly what they are and what some examples are of each heuristic.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- carousel -->
+    <section id="resource-carousel">
+        <div id="carouselExampleControls" class="carousel slide mt-5 py-3 cg4" data-bs-ride="carousel" data-bs-wrap="true" data-bs-interval="3000" data-bs-pause="false">
+            <div class="carousel-inner p-3">
+                <div class="carousel-item active">
+                    <img src="images/aesthetic.svg" class="img-fluid mx-auto d-flex" alt="Minimalist Aesthetic">
+                    <div class="carousel-caption d-block">
+                        <a href="resource.html#am-card" class="caro-link"><h2 class="w-75 mx-auto">Minimalist Aesthetic</h2></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/consistency.svg" class="img-fluid mx-auto d-flex" alt="consistency">
+                    <div class="carousel-caption d-block">
+                        <a href="resource.html#cs-card" class="caro-link"><h2 class="w-75 mx-auto">Consistency & Standards</h2></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/help.svg" class="img-fluid mx-auto d-flex" alt="help & documentation">
+                    <div class="carousel-caption d-block">
+                        <a href="resource.html#hd-card" class="caro-link"><h2 class="w-75 mx-auto">Help & Documentation</h2></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/flexibility.svg" class="img-fluid mx-auto d-flex" alt="flexibility & Efficiency of use">
+                    <div class="carousel-caption d-block">
+                        <a href="resource.html#fx-card" class="caro-link"><h2 class="w-75 mx-auto">Flexibility & Efficiency of Use</h2></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/match.svg" class="img-fluid mx-auto d-flex" alt="match between system and real world">
+                    <div class="carousel-caption d-block">
+                        <a href="resource.html#ms-card" class="caro-link"><h2 class="w-75 mx-auto">Match Between System & Real-world</h2></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/prevention.svg" class="img-fluid mx-auto d-flex" alt="error prevention">
+                    <div class="carousel-caption d-block">
+                        <a href="resource.html#ep-card" class="caro-link"><h2 class="w-75 mx-auto">Error Prevention</h2></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/recall.svg" class="img-fluid mx-auto d-flex" alt="recognition rather than recall">
+                    <div class="carousel-caption d-block">
+                        <a href="resource.html#rr-card" class="caro-link"><h2 class="w-75 mx-auto">Recognition rather than Recall</h2></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/recovery.svg" class="img-fluid mx-auto d-flex" alt="error recovery">
+                    <div class="carousel-caption d-block">
+                        <a href="resource.html#er-card" class="caro-link"><h2 class="w-75 mx-auto">Error Recovery</h2></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/user-control.svg" class="img-fluid mx-auto d-flex" alt="user control and freedom">
+                    <div class="carousel-caption d-block">
+                        <a href="resource.html#uc-card" class="caro-link"><h2 class="w-75 mx-auto">User Control & Freedom</h2></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/visibility.svg" class="img-fluid mx-auto d-flex" alt="Visibility of System">
+                    <div class="carousel-caption d-block">
+                        <a href="resource.html#vs-card" class="caro-link"><h2 class="w-75 mx-auto">Visibility of System</h2></a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon caro-icon" aria-hidden="true" data-bs-placement="bottom" data-bs-toggle="tooltip" data-bs-title="Previous Slide"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon caro-icon" aria-hidden="true" data-bs-placement="bottom" data-bs-toggle="tooltip" data-bs-title="Next Slide"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="container-fluid bg-dark">
+            <div class="footer bg-dark text-light text-center py-5">
+                <h2 class="display-5">Usability Heuristics</h2>
+                <p>Website designed, developed and created by Mr. Cassidy</p>
+                <p>
+                    Illustrations from <a href="https://undraw.co/">unDraw</a>
+                    <br />Infomation resourced from <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">NNGroup</a>
+                    <br />Development resources from <a href="https://getbootstrap.com/">Bootstrap</a>
+                </p>
+            </div>
+            <div class="update">
+                <i>Last updated: 14/02/2023</i>
+            </div>
+        </div>
+    </section>
+
+
+    <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+
+    <script>/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar*/
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+
+            var currentScrollPos = window.pageYOffset;
+
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navi-bar").style.top = "0";
+            } else {
+                document.getElementById("navi-bar").style.top = "-60px";
+            }
+            prevScrollpos = currentScrollPos;
+
+        }
+
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } 
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+    </script>
+
+
+</body>
+</html>

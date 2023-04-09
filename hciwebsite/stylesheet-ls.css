@@ -1,0 +1,446 @@
+﻿/*@medias for screen sizes and devices*/
+/*phone screens and above screen sizes*/
+@media (max-width: 768px){
+
+}
+
+/*tablets//small and above screen sizes
+@media (min-width: 768px) {
+
+    .banner {
+        max-height: 500px !important;
+        margin-left: 50px !important;
+    }
+
+    .left-h1{
+        margin-left: 30% !important;
+    }
+
+    .aboutH, .aboutH5 {
+        text-align: end !important;
+    }
+
+    .aboutP, .aboutP5{
+        text-align: start !important;
+        padding-top: 55px !important;
+    }
+
+    .head-text {
+        text-align: left !important;
+    }
+}
+
+/*medium and above screen sizes*/
+@media (min-width: 992px) {
+    .nav-item {
+        margin-right: 5px !important;
+    }
+
+
+    .navbar-nav .nav-item {
+        padding: 0 0 !important;
+    }
+
+    
+}
+
+/*large and above screen sizes*/
+@media (min-width: 1200px) {
+
+}
+
+
+/*general/global*/
+body {
+    margin: 0;
+    font-family: 'Kanit', sans-serif; /*whole page to use same font*/
+    background-color: white;
+    overflow-y: scroll;
+}
+
+
+/*removing built-in bootstrap padding*/
+.container-fluid, .row, .col-md-2, .col-1 {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+
+.anchor {
+    display: block;
+    height: 30px; /*same height as header*/
+    margin-top: -30px; /*same height as header*/
+    visibility: hidden;
+}
+
+
+/*nav bar*/
+.nav-active {
+    color: black;
+    width: 100px;
+    border-bottom: solid 3px #8EFFAD;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    transition: all .2s ease-in-out;
+}
+
+    .navbar-brand:hover {
+        transform: scale(1.05);
+    }
+
+.nav-link{
+    width: 100px;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 43%;
+}
+
+.nav-item {
+    color: white;
+    margin-right: 0px;
+    text-align: center;
+}
+
+    .nav-item:hover {
+        color: white;
+    }
+
+.navbar-toggler{
+    margin-top: -5px;
+}
+
+#navi-bar {
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/*footer*/
+.footer {
+    border-top: solid 3px #8EFFAD;
+    padding-top: 20px;
+}
+
+.footer a{
+    color: darkgray;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: white;
+}
+
+.update{
+    color: gray;
+    text-align: end;
+    padding-right: 20px;
+}
+
+/*banner*/
+.banner {
+    margin-top: -50px;
+    height: 100vh;
+    background-image: url("images/ls/");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.display-1{
+    color: black;
+}
+
+.lineUp {
+    animation: 3.5s anim-lineUp ease-out;
+}
+
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+/* triple section */
+.tri-sec .col-md-4{
+    padding: 0;
+    height: 520px;
+
+}
+
+.tri-col {
+    border: black solid 1px;
+    border-radius: 0 25px 27px 27px;
+    padding: 0;
+
+}
+    .tri-col a{
+        text-decoration: none;
+    }
+
+    .tri-col img {
+        height: 90%;
+    }
+
+.preview__details {
+    position: relative;
+    color: white;
+    font-size: 25px;
+    bottom: 0;
+    border-radius: 0 0 25px 25px;
+    background-color: rgba(37, 52, 57,0.7);
+}
+
+.preview__details__text {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0;
+}
+
+
+/* usability section */
+.big-NUH{
+    margin-top: 8em;
+}
+    .big-NUH h1{
+        font-size: 12vw;
+    }
+
+.heuristics-img {
+    border: #8EFFAD solid 3px;
+    border-radius: 25px;
+    width: 500px;
+}
+
+    .heuristics-img img {
+        max-height: 320px;
+        padding: 10px;
+    }
+
+.uh-btn a {
+    border-radius: 22px;
+    background-color: #8EFFAD;
+    font-size: 18px;
+    width: 140px;
+    text-decoration: none;
+    color: black;
+    padding: 8px 22px;
+}
+
+    .uh-btn a:hover {
+    }
+
+
+.tute-heading {
+    font-size: 25vh;
+}
+
+.tickerwrapper {
+    /* the outer div */
+    position: relative;
+    width: 99.9%;
+    font-size: 40px;
+    overflow: hidden;
+    cursor: default;
+}
+
+ul.list {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    ul.list.cloned {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    ul.list li {
+        float: left;
+        padding-left: 20px;
+    }
+
+.big-DEV {
+    margin-top: 8em;
+}
+
+    .big-DEV h1 {
+        font-size: 12vw;
+    }
+
+
+/*tutorials pages*/
+.tutes {
+    max-height: 260px;
+}
+
+.tute img{
+
+    max-width: 500px;
+    border: solid;
+}
+
+/*hover animation*/
+.l1-hover-block {
+    background-image: url("images/ls/tute-l1.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 260px;
+    max-width: 500px;
+}
+
+.l2-hover-block {
+    background-image: url("images/ls/tute-l2.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 260px;
+    max-width: 500px;
+}
+
+.hover-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start
+}
+
+.hover-item {
+    overflow: hidden;
+    position: relative;
+}
+
+    .hover-item:hover .hover-visible-item {
+        opacity: 0;
+        transform: scale(0);
+        transition-delay: 0s;
+    }
+
+.hover-visible-item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 90px 70px;
+    box-sizing: border-box;
+    transition: .4s .3s;
+}
+
+.hover-title {
+    font-size: 28px;
+    padding: 15px 25px;
+    background-color: rgba(225, 101, 132, 0.8);
+    color: white;
+}
+
+.hover-hidden-item {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg) scale(0);
+    transition: .3s;
+}
+
+.hover-item:hover .hover-hidden-item {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+    transition-delay: .3s;
+}
+
+.hover-btn {
+    display: block;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    border-radius: 3px;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    background-color: rgba(225, 101, 132, 0.8);
+    color: white;
+}
+
+    .hover-btn:hover {
+        background-color: #8EFFAD;
+        text-decoration: none;
+        color: black;
+        border: solid white 5px;
+    }
+
+
+.lineUp-web {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+    .lineUp-web.animate {
+        opacity: 1;
+        animation: 4s anim-lineUp ease-out;
+        animation-delay: -0.7s;
+    }
+
+.web-dev-icons{
+    border-radius: 0 25px 0 25px;
+    padding: 20px;
+    border: black solid 2px;
+}
+
+.web-dev-icons i{
+    font-size: 55px;
+}
+
+.web-dev-icons p{
+    height: 150px;
+}
+
+    .res-btn a{
+        background-color: #8EFFAD;
+        border-radius: 22px;
+        font-size: 18px;
+        width: 150px;
+        text-decoration: none;
+        color: black;
+        padding: 10px 20px 10px 38px;
+    }
+
+.pinkBG, .list-group a:hover, .res-btn a:hover, .uh-btn a:hover {
+    background-color: #FF6584;
+    color: white;
+}
+
+.greenBG {
+    background-color: #8EFFAD;
+    color: black;
+}

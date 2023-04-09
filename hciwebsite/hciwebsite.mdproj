@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{89EA6F29-D31A-4574-97C9-709DC44F94A8}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="index.html" />
+    <None Include="stylesheet.css" />
+    <None Include="images\recall.svg" />
+    <None Include="images\visibility.svg" />
+    <None Include="images\aesthetic.svg" />
+    <None Include="images\user-control.svg" />
+    <None Include="images\flexibility.svg" />
+    <None Include="images\recovery.svg" />
+    <None Include="images\collab-banner.svg" />
+    <None Include="images\consistency.svg" />
+    <None Include="images\match.svg" />
+    <None Include="images\help.svg" />
+    <None Include="images\usability-icon.svg" />
+    <None Include="images\prevention.svg" />
+    <None Include="example.html" />
+    <None Include="resource.html" />
+    <None Include="images\webdev.svg" />
+    <None Include="images\bootstrap.svg" />
+    <None Include="images\examples\ma-about.png" />
+    <None Include="images\examples\ma-banner.png" />
+    <None Include="images\examples\tooltips.png" />
+    <None Include="images\examples\cs-nav-r.png" />
+    <None Include="images\examples\ma-uh-resources.png" />
+    <None Include="images\examples\cs-uh-resources.png" />
+    <None Include="images\examples\vs-example.png" />
+    <None Include="images\examples\cs-wd-resources.png" />
+    <None Include="images\examples\footer.png" />
+    <None Include="images\examples\cs-resources.png" />
+    <None Include="images\examples\cs-examples.png" />
+    <None Include="images\examples\ma-examples.png" />
+    <None Include="images\examples\cs-vs-nav-h.png" />
+    <None Include="l2\stylesheet.css" />
+    <None Include="l1\stylesheet.css" />
+    <None Include="l2\index.html" />
+    <None Include="l1\index.html" />
+    <None Include="images\banner1.svg" />
+    <None Include="l2\example.html" />
+    <None Include="l2\resource.html" />
+    <None Include="l1\example.html" />
+    <None Include="l1\resource.html" />
+    <None Include="tutorial.html" />
+    <None Include="images\l1video.svg" />
+    <None Include="images\l2video.svg" />
+    <None Include="tute-l2.html" />
+    <None Include="tute-l1.html" />
+    <None Include="resources.html" />
+    <None Include="testing.html" />
+    <None Include="stylesheet-ls.css" />
+    <None Include="testing %28copy%29.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="l1\" />
+    <Folder Include="l2\" />
+  </ItemGroup>
+</Project>
